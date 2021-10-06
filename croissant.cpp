@@ -33,12 +33,12 @@ int main() {
                 c-currency-output/15337053#15337053 */
                 std::cout << "The total cost will be $" << std::fixed
                 << std::setprecision(2) << std::setfill('0')
-                << total << " (no HST)" << std::endl;
+                << total << " (no HST)." << std::endl;
             } else {
                 total = (numberOfCroissants * CROISSANT_PRICE) * HST;
                 std::cout << "The total cost will be $" << std::fixed
                 << std::setprecision(2) << std::setfill('0')
-                << total << " (with HST)" << std::endl;
+                << total << " (with HST)." << std::endl;
             }
         } else {
             std::cout << "Invalid Input." << std::endl;
